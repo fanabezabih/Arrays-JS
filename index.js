@@ -3,18 +3,18 @@
 let arr1 = [3, 7, 34, 90, 12];
 let arr2 = [true, "green", "where", 12, 56];
 
-let lastElementArr1 = arr1[arr1.length - 1];
-let lastElementArr2 = arr2[arr2.length - 1];
+let lastArr1 = arr1[arr1.length - 1];
+let lastArr2 = arr2[arr2.length - 1];
 
-console.log("Last element of arr1:", lastElementArr1);
-console.log("Last element of arr2:", lastElementArr2);
+console.log("Last element of arr1:", lastArr1);
+console.log("Last element of arr2:", lastArr2);
 
 //2.Joins array elements into a string
 
 let myPets = ["Cow", "Bird", "Snake", "Dog"];
 
-let mypetsString = myPets.join(", ");
-console.log("My pets are: " + mypetsString);
+let petString = myPets.join(", ");
+console.log("My pets are: " + petString);
 
 //3.Sorting array items
 
