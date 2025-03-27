@@ -13,8 +13,8 @@ console.log("Last element of arr2:", lastArr2);
 
 let myPets = ["Cow", "Bird", "Snake", "Dog"];
 
-let petString = myPets.join(", ");
-console.log("My pets are: " + petString);
+let petsString = myPets.join(", ");
+console.log("My pets are: " + petsString);
 
 //3.Sorting array items
 
@@ -35,19 +35,19 @@ console.log("Array with duplicates only:", [...new Set(duplicatesArray)]);
 //5.Searching words in an array
 
 let arr5 = ["the", "way", "x", 4];
-let findWord = "food";
-let result = arr5.map(item => item === findWord ? item : null).filter(Boolean);
+let find = "food";
+let result = arr5.map(item => item === find ? item : null).filter(Boolean);
 console.log(result.length > 0 ? result[0] : "The search word was not found");
 
 //6. Sort strings
 
 let word = "renniw";
-let sortedString = word.split('').sort().join('');
-console.log("Sorted string:", sortedString);
+let sorted = word.split('').sort().join('');
+console.log("Sorted string:", sorted);
 
 //7. inserting string using an array
 
-let fruits = ["Banana", "Apple", "Orange", "Mango", "Pineapple", "Grapes", "Watermelone", "Pear", "Cherry", "Plum"];
+let fruits = ["Guava", "Banana", "Mango", "Orange", "Pineapple",  "Watermelon","Grapes", "Pear", "Cherry", "Plum"];
 
 fruits.splice(5, 0, "Tomato");
 console.log("New fruits array:", fruits);
