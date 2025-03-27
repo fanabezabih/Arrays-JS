@@ -47,7 +47,7 @@ console.log("Sorted string:", sorted);
 
 //7. inserting string using an array
 
-let fruits = ["Guava", "Orange", "Mango", "Grapes", "Watermelon", "Cucumber", "Pawpaw", "Apple", "banana", "Pinneapple"];
+let fruits = ["Guava", "Orange", "Mango", "Grapes", "Watermelon", "Avocado", "Pawpaw", "Apple", "banana", "Pinneapple"];
  fruits[5] = "Tomato";
 console.log("Array after inserting:", [fruits]);
 
